@@ -1,2 +1,31 @@
-#wrapper {width: 100%; height:auto;}
-#wrapper #header {width:1200px; margin: 0 auto;}
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {font-family:'Nanum Gothic';}
+a {color: #000; text-decoration: none;}
+ul  {margin: 0; padding: 0; list-style: none; }
+li {display: inline-block;}
+#wrapper {width: 100%; height:auto; background: url(../images/background.png)no-repeat 0 0;}
+#header {text-align: center; padding: 60px 0;}
+#header a {font-size: 40px; text-decoration: none; color: #000;}
+#header .logo {color:#ffffff;  width: 150px; margin: 50px 0 0 0; font-size: 36px;  font-weight: bold;}
+#nav {width: 1200px; margin: 0 auto;}
+#nav ul li {  padding-left: 25px; background: #fff; width:100px; height: 50px; }
+#nav ul li:first-child {padding-left: 0px;}
+#nav ul.menus {float: left; overflow: hidden;}
+#nav ul.icons {float: right; overflow: hidden;}
+#main {width: 1200px; margin: 0 auto; background: #fff; padding: 50px;}
+#main .featured header h2 {text-align: center; padding: 50px 40px 0;}
+#main .featured header a img {width: 100%;}
+#footer {display: flex; width:1200px; margin: 0 auto;}
+#footer .contact,#footer .info {flex:1;}
+#footer .contact .inputs {}
+#footer .contact .inputs label {}
+#footer .contact .inputs input {width:100%; margin-bottom: 30px;  height: 60px; border: 1px solid #d1d1d1; box-sizing:border-box;}
+#footer .contact .inputs textarea {width:100%; height: 60px; border: 1px solid #d1d1d1; box-sizing:border-box;}
+#footer .contact .submit input {border: 3px solid #333; background-color: rgb(255,255,255); padding: 15px 12px;}
+#footer .info section {display: flex;}
+#footer .info section h3 {flex:1;}
+#footer .info section p {flex:2;}
+#footer .info section ul {flex:2;}
+#copyright {background-color: rgb(33,33,33); line-height: 50px;}
+#copyright p {color:#d1d1d1; text-align: center;}
