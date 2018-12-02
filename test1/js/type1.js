@@ -14,4 +14,4 @@ $(document).ready(function() {
         $items.eq(CurrentIndex++).addClass('active');
         
     }, 1000);
-});
+}); 
